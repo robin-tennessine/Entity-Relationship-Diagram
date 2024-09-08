@@ -1,5 +1,10 @@
 # Entity-Relationship Diagram TrueTrade
 
+## ERD Diagram
+
+![ERD Practices - TrueTrade](https://github.com/user-attachments/assets/f188b8e7-2bb5-41ae-98c0-4187137ad078)
+
+
 After confirming with the client, the possible entities and their attributes, identifiers are:
 
 - **Stocks**: `stock#`, `companyName`, `exchangeMarket`, `description`
@@ -17,11 +22,11 @@ After confirming with the client, the possible entities and their attributes, id
 - A portfolio may be in one or more transactions (0 or N), and each transaction must include one and only one portfolio (1 or 1).
 - A transaction must have a stock (1 or 1), and a stock may be in one or more transactions (0 or N).
 
+# Entity-Relationship Diagram PizzaHot
+
 ## ERD Diagram
 
-![ERD Practices - TrueTrade](https://github.com/user-attachments/assets/f188b8e7-2bb5-41ae-98c0-4187137ad078)
-
-# Entity-Relationship Diagram PizzaHot
+![ERD Practices - PizzaHot 2](https://github.com/user-attachments/assets/0360fda9-8c40-42c1-a53d-d916d44c3b31)
 
 This ERD represents the relationships between the entities: **Stores**, **Employees**, **Vendors**, and **Products**.
 
@@ -35,7 +40,3 @@ This ERD represents the relationships between the entities: **Stores**, **Employ
 - A store may sell many products (0 or N), and each product can be sold at many stores (0 or N).
 - A product must belong to one and only one vendor (1 or 1); and a vendor may provide one or more products (0 or N).
 - An employee must be supervised by another employee (1 or 1); and an employee may supervise many other employees (0 or N).
-
-## ERD Diagram
-
-![ERD Practices - PizzaHot 2](https://github.com/user-attachments/assets/0360fda9-8c40-42c1-a53d-d916d44c3b31)
